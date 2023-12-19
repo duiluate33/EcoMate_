@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <external-path name="storage/emulated"
+                    path="Android/data/kr.ac.yeonsung.seoj/files/Pictures"/>
+    <external-files-path name="external_files_path" path="." />
+    <external-files-cache name="external_files_path" path="." />
+    <external-path name="files" path="Android/data/kr.ac.yeonsung.seoj/files"/>
+    <paths>
+        <external-path name="sdcard" path="." />
+    </paths>
+</paths>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+
+    <TextView
+        android:id="@+id/Static_Result"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:text="결과"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/Static_Ratio"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="200dp"
+        android:text="일치율"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+
+    <ImageView
+        android:id="@+id/Image_Viewer"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btn_result_selectimage"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/round_btn"
+        android:text="갤러리에서 가져오기"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_result_camera"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="-70dp"
+        android:background="@drawable/round_btn"
+        android:text="카메라로 촬영하기"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btn_result_gomain"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="메인으로 이동하기"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/round_btn"
+        android:textColor="@color/white"
+        />
+
+
+
+</LinearLayout>
